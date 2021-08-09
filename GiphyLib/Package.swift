@@ -24,7 +24,7 @@ let package = Package(
             dependencies: ["Tools"]),
         .target(
             name: "Network",
-            dependencies: []),
+            dependencies: ["Model"]),
         .target(
             name: "Tools",
             dependencies: []
